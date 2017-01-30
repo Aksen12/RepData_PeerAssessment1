@@ -1,13 +1,18 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
+author: "Achintya Sen"
 output: 
   html_document:
     keep_md: true
 ---
 
-
 ## Loading and preprocessing the data
 
+```{r}
+activity_data = read.csv("activity.csv")
+head(activity_data)
+str(activity_data)
+```
 
 
 ## What is mean total number of steps taken per day?
